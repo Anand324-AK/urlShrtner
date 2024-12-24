@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "@jest/globals": "^29.7.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "geoip-lite": "^1.4.10",
+    "google-auth-library": "^9.15.0",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "nanoid": "^5.0.9",
+    "nodemon": "^3.1.9",
+    "passport": "^0.7.0",
+    "passport-google-oauth": "^2.0.0",
+    "rate-limiter-flexible": "^5.0.4",
+    "redis": "^4.7.0",
+    "shortid": "^2.2.8",
+    "supertest": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "ua-parser-js": "^2.0.0"
+  },
+  "name": "shortner",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
